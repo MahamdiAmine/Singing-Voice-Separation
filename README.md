@@ -4,7 +4,7 @@
 Separating singing voices from music accompaniment is an important task in many 
 applications, such as music information retrieval, lyric recognition and alignment. 
 
-this is a simple implementation of the Robust Principal Component Analysis method  
+this is a simple implementation of the Robust Principal Component Analysis method.  
 ## License
 
 Completely free (GNU)! See [LICENSE](LICENSE) for more.

@@ -6,7 +6,6 @@
 
 import sys
 from PyQt5 import QtWidgets
-
 from ui.main_ui import Ui_MainWindow
 
 
@@ -21,7 +20,6 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 def main():
     app = QtWidgets.QApplication(sys.argv)
     application = ApplicationWindow()
-    # application.setBackgroundRole(QPalette.Base)
     application.show()  # lunch the application
     application.setFixedSize(772, 400)  # with fixed size
     sys.exit(app.exec_())
