@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
         self.label_path.setObjectName("label_path")
         self.label_path.hide()
         self.pushButton_select = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_select.setGeometry(QtCore.QRect(110, gi100, 131, 27))
+        self.pushButton_select.setGeometry(QtCore.QRect(110, 100, 131, 27))
         self.pushButton_select.setObjectName("pushButton_select")
         self.pushButton_select.clicked.connect(self.select_file)
         MainWindow.setCentralWidget(self.centralwidget)
@@ -77,7 +77,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        MainWindow.setWindowTitle(_translate("MainWindow", "The Knapsac problem"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "TSG PROJECT 2017-2018"))
         self.pushButton.setText(_translate("MainWindow", "Start ==>"))
         self.label_voice_name.setText(_translate("MainWindow", "Voice name"))
         self.label_music_name.setText(_translate("MainWindow", "Music name"))
@@ -115,7 +115,7 @@ class Ui_MainWindow(object):
         data, sr = librosa.load(self.file_path)
         E, A = self.singing_voice_separation(data, sr)
         for i in range(1000000):
-            self.progressBar.setValue(i/10000-2)
+            self.progressBar.setValue(i / 10000 - 2)
         librosa.output.write_wav(output_voice_path, E, sr)
         self.progressBar.setValue(99)
         librosa.output.write_wav(output_music_path, A, sr)
@@ -177,5 +177,3 @@ class Ui_MainWindow(object):
                 break
 
         return A, E
-
-
