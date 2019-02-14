@@ -26,7 +26,7 @@ $ python main.py
 ```
 
 
-Or you can use the executable file : [Windows](), [Linux]().
+Or you can use the executable file : [Windows](), [Linux](https://github.com/MahamdiAmine/Singing-Voice-Separation/releases/download/1.2.3/Vocal_separation_Linux).
 ## Contact
 
 To contact me, [click here](https://mahamdiamine.github.io/).
