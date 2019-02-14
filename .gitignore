@@ -4,4 +4,6 @@ outputs/*
 voc_sup/
 dist/
 build/
+*.spec
+__*/
 
