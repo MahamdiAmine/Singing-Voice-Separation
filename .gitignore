@@ -4,6 +4,6 @@ outputs/*
 voc_sup/
 dist/
 build/
-*.spec
-__*/
+main.spec
+__pycache__*/
 
