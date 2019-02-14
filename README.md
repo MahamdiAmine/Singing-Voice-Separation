@@ -1,4 +1,7 @@
-# Singing-Voice Separation From Recordings 
+# TSG Project 2018-2019 :
+* Mahamdi Mohammed & Boukabane Rande
+
+# Singing-Voice Separation From Recordings
 
 
 Separating singing voices from music accompaniment is an important task in many 
