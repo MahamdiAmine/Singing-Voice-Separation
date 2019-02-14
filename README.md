@@ -9,7 +9,7 @@ this is a simple implementation of the Robust Principal Component Analysis metho
 
 Completely free (GNU)! See [LICENSE](LICENSE) for more.
 
-##Install
+## Install
 
 For Debian based systems:
 make sure you have  Python 3.6 (or +)  installed, and run the following commands :    
@@ -22,10 +22,12 @@ $ python main.py
 
 ```
 
+
+Or you can use the executable file : [Windows](), [Linux]().
 ## Contact
 
 To contact me, [click here](https://mahamdiamine.github.io/).
 
 ## Documentation 
 
-To read the documentation [click here](https://sites.google.com/site/singingvoiceseparationrpca/).
+To read some documentation [click here](https://sites.google.com/site/singingvoiceseparationrpca/).

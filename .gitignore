@@ -2,4 +2,6 @@
 inputs/*
 outputs/*
 voc_sup/
+dist/
+build/
 
