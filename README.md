@@ -1,5 +1,5 @@
 # TSG Project 2018-2019 :
-* Mahamdi Mohammed & Boukabane Rande
+* Mahamdi Mohammed & Boukabane Randa
 
 # Singing-Voice Separation From Recordings
 
